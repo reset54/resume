@@ -1,5 +1,5 @@
 ### about me
-    name Andrey 
+    name <strong>Andrey</strong> 
     years 30  
     country Georgia
 ### stack: 
