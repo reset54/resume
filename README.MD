@@ -1,7 +1,7 @@
 ## about me
-    @(Warning)(name ** _Andrey_ **
-    years ** _30_ **  
-    country ** _Georgia_ **)
+    >name `Andrey`
+    >years ***30***  
+    >country ***Georgia***)
 ### stack: 
     python3, MYSQL
 ### Frameworks 
