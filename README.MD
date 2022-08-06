@@ -1,5 +1,5 @@
 ## about me
-    name ** _Andrey_ **
+    @name ** _Andrey_ **
     years ** _30_ **  
     country ** _Georgia_ **
 ### stack: 
