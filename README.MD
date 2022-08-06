@@ -1,7 +1,7 @@
 ## about me
-    @(Warning)name ** _Andrey_ **
+    @(Warning)(name ** _Andrey_ **
     years ** _30_ **  
-    country ** _Georgia_ **
+    country ** _Georgia_ **)
 ### stack: 
     python3, MYSQL
 ### Frameworks 
