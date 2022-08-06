@@ -1,29 +1,17 @@
-name Andrey 
-years 30  
-country Georgia
-
+### about me
+    name Andrey 
+    years 30  
+    country Georgia
 ### stack: 
-    python3, MYSQL, 
-    
+    python3, MYSQL
 ### Frameworks 
     FastAPI, dgango
-
 ### server
     NGINX, uvicorn, gunicorn, websockets.
-
 ### networking
     routing, ports, protocols (HTTP, TCP)
-
 ### web
     html, css, javascript[optional].
-
-### contacts:
-    phones: 
-        +995 555-11-49-58  (.ge)
-        +7 922-795-80-00 (.ru)
-
-    email: zerg547@gmail.com
-
 ### experience:
     Experience in teamwork, experience in controlling the production process, 
     experience in controlling the performance of personnel duties, HSE compliance, 
@@ -38,3 +26,8 @@ country Georgia
     I have experience in writing bot (telebot telegram) through botFather.
     Made schedules to optimize the work of the department in google sheets, some have some knowledge of matplotlib.
     I have a little knowledge in Golang.
+### contacts:
+    phones: 
+        +995 555-11-49-58  (.ge)
+        +7 922-795-80-00 (.ru)
+    email: zerg547@gmail.com
