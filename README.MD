@@ -1,7 +1,7 @@
-### about me
-    name <strong>Andrey</strong> 
-    years 30  
-    country Georgia
+## about me
+    name **_Andrey_**
+    years **_30_**  
+    country **_Georgia_**
 ### stack: 
     python3, MYSQL
 ### Frameworks 
@@ -28,6 +28,6 @@
     I have a little knowledge in Golang.
 ### contacts:
     phones: 
-        +995 555-11-49-58  (.ge)
-        +7 922-795-80-00 (.ru)
-    email: zerg547@gmail.com
+        _+995 555-11-49-58_  (.ge)
+        _+7 922-795-80-00_   (.ru)
+    email: _zerg547@gmail.com_
