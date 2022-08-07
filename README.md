@@ -1,7 +1,7 @@
 ## about me
-    >name <i>Andrey</i>
-    >years <i>30</i>  
-    >country <i>Georgia</i>
+    name Andrey
+    years 30
+    country Georgia
 ### stack: 
     python3, MYSQL
 ### Frameworks 
