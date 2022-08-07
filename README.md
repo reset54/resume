@@ -30,4 +30,4 @@
     phones: 
         +995 555-11-49-58  (.ge)
         +7 922-795-80-00   (.ru)
-    email: _zerg547@gmail.com_
+    email: zerg547@gmail.com
