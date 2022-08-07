@@ -28,6 +28,6 @@
     I have a little knowledge in Golang, AWS.
 ### contacts:
     phones: 
-        _+995 555-11-49-58_  (.ge)
-        _+7 922-795-80-00_   (.ru)
+        +995 555-11-49-58  (.ge)
+        +7 922-795-80-00   (.ru)
     email: _zerg547@gmail.com_
