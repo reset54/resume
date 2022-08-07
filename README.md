@@ -25,7 +25,7 @@
     
     I have experience in writing bot (telebot telegram) through botFather.
     Made schedules to optimize the work of the department in google sheets, some have some knowledge of matplotlib.
-    I have a little knowledge in Golang.
+    I have a little knowledge in Golang, AWS.
 ### contacts:
     phones: 
         _+995 555-11-49-58_  (.ge)
