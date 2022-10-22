@@ -163,8 +163,9 @@ img  {
  }
 
 .responsiveimg {
-    width: 100%;
+    width: 50%;
     height: auto;
+    display: flex;
 }
 
 section {
@@ -180,17 +181,28 @@ section {
 aside {
     float: right;
     margin: 0 1.5%;
-    width: 30%;
+    width: 50%;
 }
 
 footer{
     /* background-color: ghostwhite; */
     text-align: center;
+    margin-bottom: auto;
 }
 
 body { 
 	background: #EEE; 
 	overflow-x:hidden;
+}
+
+.flow_around{
+    float: right;
+    width: 100%;
+}
+
+.for_pdf{
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .clearfix:before,
@@ -757,3 +769,5 @@ body {
 	}
     
 }
+
+<!--    -->
