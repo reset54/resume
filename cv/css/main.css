@@ -11,7 +11,7 @@ html {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 1em;
     padding-bottom: 0px;
 }
 
@@ -102,7 +102,7 @@ nav{
 }
 
 .progressbar { 
-    height: 20px;
+    height: 1.1em;
     position: relative;
     background: #555;
     padding: 3px;
@@ -163,9 +163,12 @@ img  {
  }
 
 .responsiveimg {
-    width: 50%;
+    width: 25em;
     height: auto;
-    display: flex;
+}
+
+.flow_around{
+    width: 100%;
 }
 
 section {
@@ -193,11 +196,6 @@ footer{
 body { 
 	background: #EEE; 
 	overflow-x:hidden;
-}
-
-.flow_around{
-    float: right;
-    width: 100%;
 }
 
 .for_pdf{
