@@ -1,11 +1,11 @@
 ## about me
     name Andrey
-    years 30
+    years 31
     country Georgia
 ### stack: 
     python3, MYSQL
 ### Frameworks 
-    FastAPI, dgango
+    FastAPI, Django
 ### server
     NGINX, uvicorn, gunicorn, websockets.
 ### networking
@@ -29,5 +29,6 @@
 ### contacts:
     phones: 
         +995 555-11-49-58  (.ge)
-        +7 922-795-80-00   (.ru)
-    email: zerg547@gmail.com
+    emails: 
+        andrei.azanov.work@gmail.com
+        zerg547@gmail.com
