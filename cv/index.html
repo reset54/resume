@@ -90,39 +90,60 @@
       <div display="inline-flex">
         <div>
           <h2>Andrei Azanov</h2>
-          <a href="#"><img src="images/myself.jpg" alt="Andrei" width="40%" height="auto"/></a>
+          <a href="#"><img src="images/photo_2023-06-05_11-16-04.jpg" alt="Andrei" width="40%" height="auto"/></a>
         </div>
       </div>
     </div>
 
     <div class="container">
-        <div class="section">
+      <div class="section">
           <div class="h2"><a name="about">About</a></div>
           <a href="../CV_Azanov.docx" download>Download CV.doc</a>
           <div>Hello! I'm Andrei Azanov. I worked as industrial engineer (chemical engineer) with water purification systems. I'm learning English, Web, Python, Golang.</div>
         
-            <div class="h3">Basic Information</div>
-              <div class="h4">Age:</div>
-              <div>31</div>
-
-              <div class="h4">Email:</div>
-              <div>zerg547@gmail.com</div>
-
-              <div class="h4">Phone:</div>
-              <div>+995 555-11-49-58</div>
-
-              <div class="h4">Address:</div>
-              <div>Batumi, Georgia</div>
-
-              <div class="h4">Language:</div>
-              <div>English - intermediate (B1-B2),<br/>Russian - native,<br/>Georgian - beginner, <br/>Hebrew - beginner</div>
-
-              <div class="h4">Social networks:</div>
-              <div><a href="https://www.linkedin.com/in/andreiazanov/">LinkedIn</div>
-          </div>
+          <div class="h3">Basic Information</div>
+          <div class="h4">Age:</div>
+          <div id="agePlaceholder">Loading...</div>
+  
+          <div class="h4">Email:</div>
+          <div>andrei.azanov.work@gmail.com</div>
+  
+          <div class="h4">Phone:</div>
+          <div>+995 555-11-49-58</div>
+  
+          <div class="h4">Address:</div>
+          <div>Batumi, Georgia</div>
+  
+          <div class="h4">Language:</div>
+          <div>English - intermediate (B1-B2),<br/>Russian - native,<br/>Georgian - beginner, <br/>Hebrew - beginner</div>
+  
+          <div class="h4">Social networks:</div>
+          <div><a href="https://www.linkedin.com/in/andreiazanov/">LinkedIn</a></div>
       </div>
+  </div>
+  
+  <script>
+    function calculateAge(birthDate) {
+        var currentDate = new Date();
+        var birth = new Date(birthDate);
+        var age = currentDate.getFullYear() - birth.getFullYear();
+        var m = currentDate.getMonth() - birth.getMonth();
+        if (m < 0 || (m === 0 && currentDate.getDate() < birth.getDate())) {
+            age--;
+        }
+        return age;
+    }
 
+    function updateAge() {
+        var birthDateString = "1991-10-03";
+        var birthDate = new Date(birthDateString);
+        var agePlaceholder = document.getElementById('agePlaceholder');
+        agePlaceholder.textContent = calculateAge(birthDate);
+    }
 
+    updateAge();
+    setInterval(updateAge, 24 * 60 * 60 * 1000);
+</script>
 
 <div class="section">
   <div class="container">
